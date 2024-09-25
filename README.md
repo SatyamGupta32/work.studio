@@ -74,7 +74,5 @@ For any inquiries or issues, please contact [satyamg501@gmail.com](mailto:your-e
 
 ## Link
 - link to the website
-
-```
 [https://work-studio-dusky.vercel.app/](https://work-studio-omega.vercel.app/)
-```
+
