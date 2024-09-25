@@ -1,0 +1,160 @@
+@media screen and (max-width: 1250px) {
+
+    #loader h1 {
+        font-size: 58px;
+        line-height: 40px;
+        letter-spacing: -1px;
+    }
+
+    .page1 h1 {
+        font-size: 58px;
+        line-height: 40px;
+        letter-spacing: -1px;
+    }
+
+    .elem h1 {
+        font-size: 58px;
+        line-height: 40px;
+    }
+
+    .image-container {
+        padding: 50px 10px;
+        display: flex;
+        gap: 5px;
+        justify-content: space-around;
+    }
+
+    .image-div {
+        width: auto;
+    }
+    .overlay{
+        font-size: 30px;
+        line-height: 25px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    
+    #loader h1 {
+        margin: 0 110px;
+    }
+    
+
+    .page1 h1 {
+        margin: 0 110px;
+    }
+
+    .image-div {
+        margin-bottom: 0px;
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+
+    .elem .moving {
+        padding: 1px 0;
+    }
+
+    .elem .moving .hidemoving-in {
+        display: none;
+        animation-duration: 2s;
+    }
+
+    .elem .moving .moving-in h5 {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .overlay{
+        font-size: 30px;
+        line-height: 25px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+
+    #nav {
+        padding: 16px 10px;
+    }
+
+    #nav ul {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        gap: 20px;
+        position: absolute;
+        right: 30px;
+        text-align: right;
+    }
+
+    #nav ul .menu {
+        text-align: right;
+    }
+
+    #loader h1 {
+        font-size: 45px;
+        line-height: 30px;
+        letter-spacing: -1px;
+        margin: 0 20px;
+    }
+
+    .page1 h1 {
+        font-size: 45px;
+        line-height: 30px;
+        letter-spacing: -1px;
+        margin: 0 20px;
+    }
+
+
+    #loader video {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        object-fit: cover;
+        z-index: 6;
+    }
+    
+    
+    .elem h1 {
+        font-size: 45px;
+        line-height: 35px;
+    }
+
+    .image-container {
+        padding: 50px 10px;
+        display: flex;
+        gap: 5px;
+        justify-content: space-around;
+    }
+
+    .image-div {
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    .image-container {
+        flex-direction: column;
+    }
+
+    .elem .moving .moving-in .hiddenHeading {
+        display: none;
+    }
+
+
+    .elem .moving .moving-in h5 {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .mainfooter {
+        align-items: center;
+        justify-content: space-between;
+        padding:0px;
+        flex-direction: column;
+    }
+    .overlay{
+        font-size: 30px;
+        line-height: 25px;
+    }
+}
